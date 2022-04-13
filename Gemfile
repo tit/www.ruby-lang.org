@@ -11,6 +11,6 @@ gem 'rack-ssl'
 gem 'rack-protection'
 
 group :development do
-  gem 'spidr', '~> 0.4'
-  gem 'validate-website', '~> 0.9'
+  gem 'spidr', '~> 0.4', '>= 0.4.1'
+  gem 'validate-website', '~> 0.9', '>= 0.9.5'
 end
