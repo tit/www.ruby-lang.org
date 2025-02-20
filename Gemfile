@@ -4,7 +4,7 @@ ruby '2.2.2'
 gem 'rake',   '~> 10.0'
 gem 'jekyll', '~> 2.0'
 
-gem 'unicorn'
+gem 'unicorn', '>= 5.1.0'
 gem 'rack-jekyll', '0.4.1', github: 'stomar/rack-jekyll', ref: 'allow-jekyll-2'
 gem 'rack-rewrite'
 gem 'rack-ssl'
